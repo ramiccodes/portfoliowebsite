@@ -227,3 +227,116 @@
   footer a:hover {
     color:#ff69b4;
   }
+
+  /* Website Projects + Responsive Media Query */
+  #projects {
+      background-color: #171321;
+      font-family: 'Newsreader';
+      padding: 0 1.5rem calc(2.5rem * 1.5) 1.5rem;
+  }
+
+  .head {
+      display: block;
+      line-height: 10px;
+      color: #f7f8fa;
+      margin-left: 20px;
+  }
+
+  .head p {
+      font-size: 20px ;
+      font-family: 'Newsreader';
+  }
+
+  .head h2 {
+      font-size: 30px;
+      line-height: 20px;
+      color: #ff69b4;
+  }
+  .text p {
+      color: #f7f8fa;
+      line-height: 20px;
+      font-weight: normal;
+      font-family: 'Tiro Gurmukhi'
+  }
+
+
+  img {
+      width: 100%;
+      border-radius: 25px;
+      border-left: 1px solid #ff69b4;
+      border-top: 1px solid #ff69b4;
+      padding: 24.5px;
+      
+  }
+
+  .text {
+      background-color: #2b3871;
+      padding: 8px 10px 6px 15px;
+      border-radius: 10px;
+      border: solid #171321;
+
+  }
+
+  .text-tech {
+      margin: 5px;
+      margin-left: 15px;
+      margin-bottom: 30px;
+      font-size: 18px;
+      line-height: 10px;
+      text-align: center;
+  }
+
+  .text-tech p {
+      font-family: 'Tiro Gurmukhi';
+      font-weight: bold;
+      color: #f7f8fa;
+  }
+
+  .text-tech .html {
+      font-size: 40px;
+      color:#f06529;
+
+  }
+
+  .text-tech .css{
+      font-size: 40px;
+      color: #2965f1;
+  }
+
+
+  #projects h1 {
+      color: #f7f8fa;
+      /* font-size: 50px; */
+      font-family: 'Newsreader';
+      /* margin: 2.5rem; */
+      /* margin-left:0; */
+      font-size: 2.5rem;
+      margin-bottom: calc(2.5rem * 1.5);
+
+  }
+
+  .grid-text {
+    margin-left: 3rem;
+  }
+
+  @media (min-width: 550px) {
+      article {
+          display: grid;
+          grid-template-columns: repeat(10, 1fr);
+          gap: 2rem;
+      }
+    .grid-text {
+      order: 2;
+      text-align: right;
+      grid-column: 5/11;
+      grid-row: 1/2;
+    }
+    img {
+      width:100;
+      margin-top: 3rem;
+    }
+    #projects img {
+      grid-column:1/6;
+      grid-row: 1/2;
+    }
+  }
