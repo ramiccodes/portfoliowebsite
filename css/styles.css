@@ -259,7 +259,7 @@ footer a:hover {
 }
 .text p {
     color: #f7f8fa;
-    line-height: 20px;
+    line-height: 25px;
     font-weight: normal;
     font-family: 'Tiro Gurmukhi';
 }
@@ -303,9 +303,14 @@ footer a:hover {
 
 }
 
-.text-tech .css{
+.text-tech .css {
     font-size: 40px;
     color: #2965f1;
+}
+
+.text-tech .js {
+  font-size: 40px;
+  color: #f7df1e;
 }
 
 

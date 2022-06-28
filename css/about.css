@@ -239,6 +239,27 @@
     color: #2965f1;
 }
 
+.text-tech .js {
+  font-size: 40px;
+  color: #f7df1e;
+}
+
+.text-tech .py {
+  font-size: 40px;
+  background: -moz-linear-gradient(180deg, #306998 30%, #FFD43B 100%);
+  background: -webkit-linear-gradient(180deg, #306998 30%, #FFD43B 100%);
+  background: linear-gradient(180deg, #306998 30%, #FFD43B 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.text-tech .git {
+  font-size: 40px;
+  color: #F1502F;
+}
+
 .text-tech ul {
     list-style-type: none;
     display: flex;
@@ -365,17 +386,31 @@
     padding: 1rem;
     padding-left: 5rem;
   }
+
   .about span {
-    text-align: right;
+    text-align: center;
     color: #ff69b4;
   }
+
+  .about h2 {
+    text-align: center;
+  }
+
   .about h3 {
-    text-align:right;
+    text-align: center;
     font-family: 'Newsreader';
     color: #ff69b4;
     margin-bottom: 10px;
     
   }
+
+  .about .text {
+    text-align: center;
+  }
+
   .about img{
-    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
   }
