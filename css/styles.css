@@ -81,6 +81,15 @@ body {
   color: #ff4fa7;
 }
 
+.rps {
+  text-decoration: none;
+  color: #ff4fa7;
+}
+
+.rps:hover {
+  text-decoration: underline;
+}
+
 .gradient-int-cont {
   background: linear-gradient(90deg, rgba(247,248,250,1) 0%, rgba(255,105,180,1) 100%);
   height: 2px;
@@ -271,6 +280,7 @@ footer a:hover {
     border-left: 1px solid #ff69b4;
     border-top: 1px solid #ff69b4;
     padding: 24.5px;
+    box-shadow: 2.5px 2.5px 20px 10px #ff69b4;
     
 }
 
@@ -355,6 +365,7 @@ footer a:hover {
   border-right: 1px solid #ff69b4;
   border-bottom: 1px solid #ff69b4;
   padding: 24.5px;
+  box-shadow: 2.5px 2.5px 20px 10px #ff69b4;
 }
 
 
