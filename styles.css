@@ -266,6 +266,10 @@ footer a:hover {
     line-height: 20px;
     color: #ff69b4;
 }
+
+.head .rps {
+  line-height: 30px;
+}
 .text p {
     color: #f7f8fa;
     line-height: 25px;

@@ -206,6 +206,7 @@
     
 }
 
+
 .text {
     background-color: #2b3871;
     padding: 8px 10px 6px 15px;
@@ -275,6 +276,7 @@
 
 .text-tech h2 {
     margin-top: 2rem;
+    line-height: 35px;
 }
 
 
@@ -414,4 +416,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    #aboutpic {
+      width: 250px;
+      height: auto;
+    }
   }
