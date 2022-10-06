@@ -245,6 +245,11 @@ nav a:hover {
   color: #f7df1e;
 }
 
+.text-tech .react {
+  font-size: 40px;
+  color: #61dafb;
+}
+
 .text-tech .py {
   font-size: 40px;
   background: -moz-linear-gradient(180deg, #306998 30%, #ffd43b 100%);

@@ -326,6 +326,11 @@ footer a:hover {
   color: #f7df1e;
 }
 
+.text-tech .react {
+  font-size: 40px;
+  color: #61dafb;
+}
+
 .text-tech .bootstrap {
   font-size: 40px;
   color: #6f10f3;
