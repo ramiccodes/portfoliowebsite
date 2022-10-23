@@ -340,6 +340,15 @@ footer a:hover {
   font-size: 40px;
 }
 
+.text-tech .php {
+  font-size: 40px;
+  color: #787cb4;
+}
+.text-tech .wordpress {
+  font-size: 40px;
+  color: #1b769c;
+}
+
 #projects h1 {
   color: #f7f8fa;
   font-family: "Newsreader";

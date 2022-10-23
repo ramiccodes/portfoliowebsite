@@ -250,6 +250,15 @@ nav a:hover {
   color: #61dafb;
 }
 
+.text-tech .php {
+  font-size: 40px;
+  color: #787cb4;
+}
+.text-tech .wordpress {
+  font-size: 40px;
+  color: #1b769c;
+}
+
 .text-tech .py {
   font-size: 40px;
   background: -moz-linear-gradient(180deg, #306998 30%, #ffd43b 100%);
