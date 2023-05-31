@@ -413,3 +413,88 @@ footer a:hover {
     grid-row: 1/2;
   }
 }
+
+.tech-stack ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 2rem;
+  font-size: 3rem;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.tech-stack .git {
+  font-size: 40px;
+  color: #f1502f;
+}
+
+.tech-stack .bootstrap {
+  font-size: 40px;
+  color: #6f10f3;
+}
+
+.tech-stack .figma {
+  font-size: 40px;
+}
+
+.tech-stack .html {
+  font-size: 40px;
+  color: #f06529;
+}
+
+.tech-stack .css {
+  font-size: 40px;
+  color: #2965f1;
+}
+
+.tech-stack .js {
+  font-size: 40px;
+  color: #f7df1e;
+}
+
+.tech-stack .react {
+  font-size: 40px;
+  color: #61dafb;
+}
+
+.tech-stack .php {
+  font-size: 40px;
+  color: #787cb4;
+}
+.tech-stack .wordpress {
+  font-size: 40px;
+  color: #1b769c;
+}
+
+.tech-stack .node {
+  font-size: 40px;
+  color: #539e43;
+}
+
+.tech-stack .sass {
+  font-size: 40px;
+  color: #ce679a;
+}
+
+.text-tech .sass {
+  font-size: 40px;
+  color: #ce679a;
+}
+
+.text-tech .node {
+  font-size: 40px;
+  color: #539e43;
+}
+
+.tech-stack .py {
+  font-size: 40px;
+  background: -moz-linear-gradient(180deg, #306998 30%, #ffd43b 100%);
+  background: -webkit-linear-gradient(180deg, #306998 30%, #ffd43b 100%);
+  background: linear-gradient(180deg, #306998 30%, #ffd43b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
