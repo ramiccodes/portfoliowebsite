@@ -498,3 +498,41 @@ footer a:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.proj img {
+  height: 15em;
+  width: 90%;
+}
+
+.proj img:hover {
+  border-radius: 25px;
+  border-right: 1px solid #ff69b4;
+  border-bottom: 1px solid #ff69b4;
+  /* padding: 24.5px; */
+  box-shadow: 2.5px 2.5px 20px 10px #ff69b4;
+  cursor: pointer;
+}
+
+.proj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.proj a {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#projects-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: var(--black);
+}
